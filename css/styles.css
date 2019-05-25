@@ -1,0 +1,76 @@
+body {
+    height: 100%;
+    margin: 0;
+    background: linear-gradient(45deg, #2EB389, #2E89B3, #5D286F) no-repeat fixed;
+}
+
+label {
+    display: none;
+}
+
+a {
+    color: #5D286F;
+}
+
+a:hover {
+    color: #562768;
+    text-decoration: none;
+}
+
+.form-control {
+    background: rgba(255, 255, 255, 0.30);
+    height: calc(2em + 1rem + 4px);
+    border: none;
+    transition: all .5s ease-in-out;
+}
+
+.form-control::placeholder {
+    color: rgba(0,0,0,0.30);
+}
+
+.form-control:focus {
+    background: rgba(255, 255, 255, 0.40);
+    box-shadow: none;
+}
+
+.was-validated .form-control:invalid, .form-control.is-invalid {
+    background-image: none;
+    border-bottom: 5px solid crimson;
+}
+
+.was-validated .form-control:invalid:focus, .form-control.is-invalid:focus {
+    box-shadow: none;
+    border-bottom: 5px solid crimson;
+}
+
+.logo {
+    font-family: Quicksand, sans-serif;
+    font-size: 4em;
+    background: #FFFFFF;
+    margin-top: 1em;
+    margin-bottom: 1rem;
+    border-radius: 0.25rem;
+}
+
+.logo > .meu {
+    color: #2E89B3;
+}
+
+.logo > .controle {
+    color: #5D286F;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 0.75rem 0.75rem;
+    border: none;
+}
+
+.btn-primary {
+    background: #5D286F;
+}
+
+.btn-primary:hover {
+    background: #562768;
+}
