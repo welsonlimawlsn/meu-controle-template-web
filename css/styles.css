@@ -45,18 +45,18 @@ a:hover {
 
 .logo {
     font-family: Quicksand, sans-serif;
-    font-size: 4em;
+    font-size: 2.5em;
     background: #FFFFFF;
     margin-top: 1em;
     margin-bottom: 1rem;
     border-radius: 0.25rem;
 }
 
-.logo > .meu {
+.logo > .azul {
     color: #2E89B3;
 }
 
-.logo > .controle {
+.logo > .roxo {
     color: #5D286F;
 }
 
@@ -73,4 +73,18 @@ a:hover {
 
 .btn-primary:hover {
     background: #562768;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
+.show > .btn-primary.dropdown-toggle {
+    background-color: #5D286F;
+    border: none;
+}
+
+.btn-primary:focus, .btn-primary.focus {
+    box-shadow: none;
+}
+
+.btn-primary:not(:disabled):not(.disabled):active:focus, .btn-primary:not(:disabled):not(.disabled).active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
 }
