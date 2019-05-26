@@ -1,5 +1,11 @@
 * {
     font-family: Quicksand, sans-serif;
+    color: #404040;
+}
+
+::selection {
+    background: #FFFFFF;
+    color: #5D286F;
 }
 
 body {
@@ -78,8 +84,7 @@ a:hover {
     background: #562768;
 }
 
-.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
-.show > .btn-primary.dropdown-toggle {
+.btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active, .show > .btn-primary.dropdown-toggle {
     background-color: #5D286F;
     border: none;
 }
@@ -95,4 +100,58 @@ a:hover {
 .texto-destaque-simples {
     color: #FFFFFF;
     font-weight: lighter;
+}
+
+.texto-destaque-simples > i {
+    color: #FFFFFF;
+}
+
+.margin-top-bottom {
+    margin: 1em 0;
+}
+
+.saldo-header {
+    font-size: 2em;
+}
+
+.data-header {
+    font-size: 1.5em;
+}
+
+.jumbotron {
+    background: rgba(255, 255, 255, 0.30);
+}
+
+.proximos-pagamento > ul > li {
+    font-size: 1.3em;
+}
+
+.categoria {
+    margin-right: 2em;
+}
+
+.btn-link-primary {
+    color: #2E89B3;
+}
+
+.btn-link-secondary {
+    color: #4f4f4f;
+}
+
+.btn-link-primary:hover, .btn-link-secondary:hover {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.accordion {
+    margin-bottom: 2em;
+}
+
+.card {
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+}
+
+.card-header {
+    background: rgba(255, 255, 255, 0.30);
 }
