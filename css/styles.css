@@ -1,3 +1,7 @@
+* {
+    font-family: Quicksand, sans-serif;
+}
+
 body {
     height: 100%;
     margin: 0;
@@ -44,7 +48,6 @@ a:hover {
 }
 
 .logo {
-    font-family: Quicksand, sans-serif;
     font-size: 2.5em;
     background: #FFFFFF;
     margin-top: 1em;
