@@ -155,3 +155,20 @@ a:hover {
 .card-header {
     background: rgba(255, 255, 255, 0.30);
 }
+
+.popover {
+    background: rgba(255, 255, 255, 0.30);
+    border: none;
+}
+
+.popover-body {
+    color: white;
+}
+
+.bs-popover-right > .arrow::after, .bs-popover-auto[x-placement^="right"] > .arrow::after {
+    border-right-color: rgba(255, 255, 255, 0.30);
+}
+
+.bs-popover-right > .arrow::before, .bs-popover-auto[x-placement^="right"] > .arrow::before {
+    border: none;
+}
